@@ -3,4 +3,4 @@ Flask
 WTForms
 Flask_WTF
 Werkzeug
-
+gunicorn==19.7.1
