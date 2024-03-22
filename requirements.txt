@@ -1,6 +1,6 @@
-Bootstrap_Flask
-Flask
-WTForms
-Flask_WTF
-Werkzeug
+Bootstrap_Flask==2.2.0
+Flask==2.3.2
+WTForms==3.0.1
+Flask_WTF==1.2.1
+Werkzeug=3.0.0
 gunicorn==19.7.1
