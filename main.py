@@ -32,7 +32,7 @@ def add_cafe():
     form = CafeForm()
     if form.validate_on_submit():
         row = [form.cafe.data,form.locURL.data, form.openTime.data, form.closeTime.data,form.coffeeRating.data,form.wifiRating.data, form.powerOutletRating.data]
-        with open('day-62/cafe-data.csv',mode='a',encoding='utf-8') as csv_file:
+        with open('cafe-data.csv',mode='a',encoding='utf-8') as csv_file:
             csvwriter = csv.writer(csv_file)
             csvwriter.writerow(row)
         return redirect(url_for('cafes'))
@@ -41,7 +41,7 @@ def add_cafe():
 
 @app.route('/cafes')
 def cafes():
-    with open('day-62/cafe-data.csv', newline='', encoding='utf-8') as csv_file:
+    with open('cafe-data.csv', newline='', encoding='utf-8') as csv_file:
         csv_data = csv.reader(csv_file, delimiter=',')
         list_of_rows = []
         for row in csv_data:
