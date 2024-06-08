@@ -27,7 +27,7 @@ This is a simple Flask web application that allows users to submit information a
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/cafe-collector.git
+    git clone https://github.com/IceBerG-15/cafe-wifi.git
     cd cafe-wifi
     ```
 
