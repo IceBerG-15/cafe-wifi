@@ -55,12 +55,15 @@ This is a simple Flask web application that allows users to submit information a
 
 - Home: `http://127.0.0.1:5000/`
   - Displays the home page.
+  - ![Home Page](screenshots/pic1.png)
 
 - Add Cafe: `http://127.0.0.1:5000/add`
   - Contains a form to submit new cafe information.
+  - ![Add Cafe Page](screenshots/pic3.png)
 
 - View Cafes: `http://127.0.0.1:5000/cafes`
   - Displays a table with the list of all cafes and their details.
+  - ![Cafes Page](screenshots/pic2.png)
 
 ## Form Fields
 
