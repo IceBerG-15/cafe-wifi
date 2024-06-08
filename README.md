@@ -2,6 +2,8 @@
 
 This is a simple Flask web application that allows users to submit information about cafes, including their location, open and close times, and ratings for coffee, WiFi, and power outlets. The data is stored in a CSV file and can be viewed in a table format on a separate page.
 
+### Live Link: https://rapid-disk-8387.ploomberapp.io
+
 ## Features
 
 - Submit new cafe information through a form.
